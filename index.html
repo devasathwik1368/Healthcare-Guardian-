@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>HealthGuardian AI</title>
+
+<link rel="stylesheet" href="/static/style.css">
+
+<link rel="stylesheet"
+href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+</head>
+
+<body>
+
+<h1>❤️ HealthGuardian AI</h1>
+
+<div class="grid">
+
+<div class="card">
+
+<h2>Symptom Diagnosis</h2>
+
+<input id="symptoms">
+
+<button onclick="predict()">Predict</button>
+<button onclick="voice()">Voice</button>
+
+<div id="result"></div>
+
+</div>
+
+<div class="card">
+
+<h2>Medical Scan</h2>
+
+<input type="file" id="file">
+
+<button onclick="upload()">Upload</button>
+
+<button onclick="startCamera()">Camera</button>
+<button onclick="capture()">Capture</button>
+
+<video id="video"></video>
+
+<img id="image">
+
+<div id="scanResult"></div>
+
+</div>
+
+<div class="card">
+
+<h2>Medical Chat</h2>
+
+<div id="chatbox"></div>
+
+<input id="chatinput">
+
+<button onclick="chat()">Send</button>
+
+</div>
+
+<div class="card">
+
+<h2>Nearest Hospitals</h2>
+
+<button onclick="findHospitals()">Find Hospitals</button>
+
+<div id="map"></div>
+
+</div>
+
+<div class="card">
+
+<h2>Health History</h2>
+
+<button onclick="loadHistory()">Load History</button>
+
+<div id="history"></div>
+
+</div>
+
+</div>
+
+<script src="/static/script.js"></script>
+
+</body>
+</html>

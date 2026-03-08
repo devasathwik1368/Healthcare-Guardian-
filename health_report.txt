@@ -1,0 +1,11 @@
+
+HealthGuardian AI Report
+Date:2026-03-06 10:45:44.041061
+
+Symptoms:fever
+
+Predicted Disease:AIDS
+
+About:Information not available
+
+Prevention:Consult doctor
